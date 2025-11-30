@@ -120,4 +120,4 @@ if user_input:
     session["message_history"].append({"role": "assistant", "messages": ai_message})
 
 if __name__ == "__main__":
-    pp("Streamlit LangGraph Frontend for MohuGPT")
+    print("Streamlit LangGraph Frontend for MohuGPT")
